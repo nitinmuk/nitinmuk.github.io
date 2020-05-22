@@ -1,31 +1,43 @@
+body
+{
+    background-color: rgb(243, 232, 232);
+}
 h3
 {
     padding : 10px;
     background-color: cadetblue;
     color: white;
 }
-
 h4
 {
     color: cadetblue;
     background-color: white;
     margin-top: 10%;
 }
-body
-{
-    background-color: rgb(243, 232, 232);
-}
 
-#about-me-pane
+#about-me-pane,#contact-pane,#portfolio-pane
 {
     margin-top: 2%;
     background-color: white;
     font-family: sans-serif,Arial, Helvetica;
     border-style: groove;
 }
-
-#image
+.image
 {
     margin: 1%;
     width: 100px;
+}
+.portfolio-image
+{
+    margin: 2%;
+    width: 90%;
+}
+.bottom-center
+{
+  position: absolute;
+  background-color: cadetblue;
+  bottom: 5%;
+  left: 30%;
+  padding:2%;
+  text-align: center;
 }
