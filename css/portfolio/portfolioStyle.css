@@ -1,3 +1,6 @@
+/**
+* keeping body, h3 and h4 tags styling same across all pages to have consistent experience across all pages.
+*/
 body
 {
     background-color: rgb(243, 232, 232);
@@ -15,23 +18,29 @@ h4
     margin-top: 10%;
 }
 
-#about-me-pane,#contact-pane,#portfolio-pane
+/**
+* keeping portfolio pane styling same as other pages to have consistent feeling across all pages.
+*/
+#portfolio-pane
 {
     margin-top: 2%;
     background-color: white;
     font-family: sans-serif,Arial, Helvetica;
     border-style: groove;
 }
-.image
-{
-    margin: 1%;
-    width: 100px;
-}
+
+/**
+* below styling is to control each portfolio image stlying
+*/
 .portfolio-image
 {
     margin: 2%;
     width: 90%;
 }
+
+/**
+* below styling is to style name plate on each portfolio image
+*/
 .bottom-center
 {
   position: absolute;
