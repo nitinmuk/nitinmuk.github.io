@@ -8,7 +8,7 @@
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="../css/index/style.css">
+  <link rel="stylesheet" href="./assets/css/portfolio/portfolioStyle.css">
   <!-- bootstrap JS and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -19,7 +19,6 @@
 </head>
 
 <body>
-  <!-- header along with navigation bar starts-->
   <header>
     <!-- A light horizontal navbar with collapsible menu link for smaller screens-->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -32,10 +31,10 @@
         </ul>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#about-me-pane">About</a>
+            <a class="nav-link" href="./index.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#portfolio-pane">Portfolio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./contact.html">Contact</a>
@@ -44,16 +43,16 @@
       </div>
     </nav>
   </header>
-  <!-- header along with navigation bar ends-->
-  <!-- main section starts-->
+  <!-- Header and navigation bar ends-->
+  <!-- portfolio pane section starts -->
   <section>
     <div class="container">
       <div class="row">
-        <div class="col-md-8" id="about-me-pane">
+        <div class="col-md-10" id="portfolio-pane">
           <div class="row">
             <div class="col-md-4">
               <h4>
-                About Me
+                Portfolio
               </h4>
             </div>
           </div>
@@ -62,34 +61,47 @@
               <hr>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-2">
-              <img class="image" src="../images/Nitin_Mukesh_Passport_Photo_Front.jpg" alt="Nitin Mukesh">
+          <article class="row">
+            <div class="col-md-6">
+              <img class="portfolio-image" src="./assets/images/zebra_SA.JPG" alt="Zebra_SA">
+              <div class="bottom-center">
+                <h5>Zebra Crossing</h5>
+              </div>
             </div>
-            <aside class="col-md-10">
-              <p>
-                I am currently pursuing full stack developer coding boot camp as I intend to become
-                full stak developer. I am originally from India and came to Australia in Jan 2020.
-                I have lived in various countries and as per my experience, Australia is among the best places to live
-                in the world.
-                I am really enjoying sunny Perth weather currently.
-              </p>
-            </aside>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p></p>
-              <p>
-                I enjoy playing and watching cricket and tennis. I also enjoy watching movies and TV series.
-                I enjoy meeting new people as well as exploring new places.
-              </p>
+            <div class="col-md-6">
+              <img class="portfolio-image" src="./assets/images/crocodile_SA.JPG" alt="Crocodile_SA">
+              <div class="bottom-center">
+                <h5>Alert Zone</h5>
+              </div>
             </div>
-          </div>
+          </article>
+          <article class="row">
+            <div class="col-md-6">
+              <img class="portfolio-image" src="./assets/images/Cubs_SA.JPG" alt="Cubs_SA">
+              <div class="bottom-center">
+                <h5>Fun Time</h5>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="portfolio-image" src="./assets/images/Lion_SA.JPG" alt="Lion_SA">
+              <div class="bottom-center">
+                <h5> Danger Zone</h5>
+              </div>
+            </div>
+          </article>
+          <article class="row">
+            <div class="col-md-6">
+              <img class="portfolio-image" src="./assets/images/Tortoise_SA.JPG" alt="Tortoise_SA">
+              <div class="bottom-center">
+                <h5> Slow & Steady </h5>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </div>
   </section>
-  <!-- main section ends-->
+  <!-- portfolio pane section ends-->
   <!-- Footer starts -->
   <footer class="bottom">
     <!-- Copyright starts-->
@@ -101,4 +113,5 @@
   </footer>
   <!-- Footer ends -->
 </body>
+
 </html>
