@@ -21,7 +21,7 @@ h4
 /**
 * keeping portfolio pane styling same as other pages to have consistent feeling across all pages.
 */
-#portfolio-pane
+#about-me-pane
 {
     margin-top: 2%;
     background-color: white;
@@ -30,12 +30,39 @@ h4
 }
 
 /**
+* below styling is to control image stlying in about me page
+*/
+.image
+{
+    margin: 1%;
+    width: 100px;
+}
+
+li
+{
+    color : cadetblue;
+
+}
+
+/**
+* keeping portfolio pane styling same as other pages to have consistent feeling across all pages.
+*/
+#portfolio-pane
+{
+    margin-top: 2%;
+    background-color: white;
+    font-family: sans-serif,Arial, Helvetica;
+    border-style: groove;
+    padding-bottom: 2%;
+}
+
+/**
 * below styling is to control each portfolio image stlying
 */
 .portfolio-image
 {
     margin: 2%;
-    width: 90%;
+    width: 220px;
 }
 
 /**
@@ -50,3 +77,20 @@ h4
   padding:2%;
   text-align: center;
 }
+
+/**
+* keeping contact pane styling same as other pages to have consistent feeling across all pages.
+*/
+#contact-pane
+{
+    margin-top: 2%;
+    background-color: white;
+    font-family: sans-serif,Arial, Helvetica;
+    border-style: groove;
+}
+
+.hide
+{
+    display:none;
+}
+

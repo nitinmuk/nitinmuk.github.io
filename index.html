@@ -8,7 +8,7 @@
   <!-- CSS only -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="./assets/css/index/style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <!-- bootstrap JS and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -30,15 +30,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
         </ul>
-        <ul class="navbar-nav">
+        <ul id="navLinks" class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#about-me-pane">About</a>
+            <a class="nav-link" href="#about-me">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="#contact-me">Contact</a>
           </li>
         </ul>
       </div>
@@ -46,7 +46,7 @@
   </header>
   <!-- header along with navigation bar ends-->
   <!-- main section starts-->
-  <section>
+  <section id="about-me">
     <div class="container">
       <div class="row">
         <div class="col-md-8" id="about-me-pane">
@@ -64,41 +64,178 @@
           </div>
           <div class="row">
             <div class="col-md-2">
-              <img class="image" src="./assets/images/index/Nitin_Mukesh_Passport_Photo_Front.jpg" alt="Nitin Mukesh">
+              <img class="image" src="./assets/images/about/Nitin_Mukesh_Passport_Photo_Front.jpg" alt="Nitin Mukesh">
             </div>
             <aside class="col-md-10">
-              <p>
-                I am currently pursuing full stack developer coding boot camp as I intend to become
-                full stak developer. I am originally from India and came to Australia in Jan 2020.
-                I have lived in various countries and as per my experience, Australia is among the best places to live
-                in the world.
-                I am really enjoying sunny Perth weather currently.
-              </p>
+              <ul>
+                <li>
+                  Full Stack Developer & AWS Certified Solution Architect Associate with 11 years of experience in the
+                  software development and implementation using Java, SQL and related technologies.
+                </li>
+                <li>
+                  Currently working as a backend cloud developer with a strong focus on developing serverless
+                  Microservices on AWS following
+                  DevOps methodology.
+                </li>
+                <li>
+                  Recently earned a certificate in full stack web development from the University of Western Australia,
+                  with newly developed skills in JavaScript, CSS, React, jQuery and Node.js.
+                </li>
+                <li>
+                  Passionate about solving
+                  problems, learning new skills and developing robust applications.
+                </li>
+                <li>
+                  Excellent written and verbal communication skills, high analytical and problem-solving skills, quick
+                  learner, strong relationship building and interpersonal skills and the ability to communicate easily
+                  with people at all levels.
+                </li>                
+              </ul>
             </aside>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p></p>
-              <p>
-                I enjoy playing and watching cricket and tennis. I also enjoy watching movies and TV series.
-                I enjoy meeting new people as well as exploring new places.
-              </p>
-            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12" id="portfolio-pane">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>
+                Portfolio
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <hr>
+            </div>
+          </div>
+          <article class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/portfolio/Mara_Validator.JPG" alt="Mara Validator">
+                <div class="card-body">
+                  <h5 class="card-title">Mara Validator</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Your one-stop for code validation</h6>                                                    
+                  <a href="https://nitinmuk.github.io/mara-validator/" class="card-link" target="_blank">App Link</a>
+                  <a href="https://github.com/nitinmuk/mara-validator" class="card-link" target="_blank">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/portfolio/Weather-dashboard-Search_City_Weather.JPG" alt="Weather Dashboard">                                  
+                <div class="card-body">
+                  <h5 class="card-title">Weather Dashboard</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Check weather forecast</h6>
+                  <a href="https://nitinmuk.github.io/weather-dashboard/" class="card-link" target="_blank">App Link</a>
+                  <a href="https://github.com/nitinmuk/weather-dashboard" class="card-link" target="_blank">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/portfolio/Work_Day_Scheduler.JPG" alt="Work Day Scheduler">
+                <div class="card-body">
+                  <h5 class="card-title">Work Day Scheduler</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Schedule your day</h6>                                                    
+                  <a href="https://nitinmuk.github.io/work-day-scheduler/" class="card-link" target="_blank">App Link</a>
+                  <a href="https://github.com/nitinmuk/work-day-scheduler" class="card-link" target="_blank">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <br>
+          <article class="row">
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/portfolio/quiz_home.JPG" alt="Quiz">
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript Quiz</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Test your knowledge</h6>                                                  
+                  <a href="https://nitinmuk.github.io/code-quiz/" class="card-link" target="_blank">App Link</a>
+                  <a href="https://github.com/nitinmuk/code-quiz" class="card-link" target="_blank">GitHub Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./assets/images/portfolio/password_generator.JPG" alt="Password Generator">
+                <div class="card-body">
+                  <h5 class="card-title">Password Generator</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Generate Passwords</h6>                                                    
+                  <a href="https://nitinmuk.github.io/password-generator/" class="card-link" target="_blank">App Link</a>
+                  <a href="https://github.com/nitinmuk/password-generator" class="card-link" target="_blank">GitHub Link</a>
+                </div>
+              </div>              
+            </div>            
+          </article>          
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact-me">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" id="contact-pane">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>
+                            Contact
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="form-group">
+                                <label for="controlInput1">Name</label>
+                                <input type="text" class="form-control" id="controlInput1" placeholder="Jon Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="controlInput2">Email address</label>
+                                <input type="email" class="form-control" id="controlInput2"
+                                    placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="controlTextArea1">Message</label>
+                                <textarea class="form-control" id="controlTextArea1" rows="3"></textarea>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <button type="button" class="btn btn-info">Submit</button>
+                                </div>
+                                <p></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
   <!-- main section ends-->
   <!-- Footer starts -->
   <footer class="bottom">
     <!-- Copyright starts-->
     <div class="footer-copyright text-center py-3">
       &copy; 2020 Copyright:
-      <a href="https://github.com/nitinmuk/" target="_blank">Nitin UWA BootCamp</a>
+      <a href="https://github.com/nitinmuk/" target="_blank">Nitin's GitHub</a>
     </div>
     <!-- Copyright ends-->
   </footer>
   <!-- Footer ends -->
+  <!-- JS file in assets -->
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>
