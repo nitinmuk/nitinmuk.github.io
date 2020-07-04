@@ -34,14 +34,19 @@ h4
 */
 .image
 {
-    margin: 1%;
-    width: 100px;
+    width: 100%;
 }
 
-li
+.card-header,.card-footer,.card-link
 {
-    color : cadetblue;
-
+    background-color: cadetblue;
+    font-family: sans-serif,Arial, Helvetica;
+    text-align: center;
+    color:white; 
+}
+.card-header:hover
+{
+    opacity : 0.75;
 }
 
 /**
