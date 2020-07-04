@@ -8,9 +8,11 @@ $(document).ready(() => {
                 showContainer("#portfolio");
                 hideContainer("#about-me");
                 hideContainer("#contact-me");
+                hideContainer("#linkedin");
                 break;
             case "#about-me":
                 showContainer("#about-me");
+                showContainer("#linkedin");
                 hideContainer("#portfolio");
                 hideContainer("#contact-me");
                 break;
@@ -18,6 +20,7 @@ $(document).ready(() => {
                 showContainer("#contact-me");
                 hideContainer("#portfolio");
                 hideContainer("#about-me");
+                hideContainer("#linkedin");
                 break;
         }
     });

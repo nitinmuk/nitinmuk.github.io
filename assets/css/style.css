@@ -18,6 +18,15 @@ h4
     margin-top: 10%;
 }
 
+.contact-list
+{
+    text-align: center;
+    font-family: sans-serif,Arial, Helvetica;
+    border-style: groove;
+    color: cadetblue;
+    font-size: 24px;
+}
+
 /**
 * keeping portfolio pane styling same as other pages to have consistent feeling across all pages.
 */
@@ -39,12 +48,12 @@ h4
 
 .card-header,.card-footer,.card-link
 {
-    background-color: cadetblue;
+    background-color: black;
     font-family: sans-serif,Arial, Helvetica;
     text-align: center;
     color:white; 
 }
-.card-header:hover
+.card-header:hover,.card-footer:hover
 {
     opacity : 0.75;
 }
@@ -86,16 +95,28 @@ h4
 /**
 * keeping contact pane styling same as other pages to have consistent feeling across all pages.
 */
-#contact-pane
+#contact-pane,#contact-info
 {
     margin-top: 2%;
     background-color: white;
     font-family: sans-serif,Arial, Helvetica;
     border-style: groove;
 }
+#linkedin
+{
+    float : right;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-color: white;
+    border-style: groove;
+}
 
 .hide
 {
     display:none;
+}
+.icon-color
+{
+    color: cadetblue;
 }
 
