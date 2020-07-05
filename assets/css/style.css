@@ -79,18 +79,6 @@ h4
     width: 220px;
 }
 
-/**
-* below styling is to style name plate on each portfolio image
-*/
-.bottom-center
-{
-  position: absolute;
-  background-color: cadetblue;
-  bottom: 5%;
-  left: 30%;
-  padding:2%;
-  text-align: center;
-}
 
 /**
 * keeping contact pane styling same as other pages to have consistent feeling across all pages.
@@ -100,14 +88,6 @@ h4
     margin-top: 2%;
     background-color: white;
     font-family: sans-serif,Arial, Helvetica;
-    border-style: groove;
-}
-#linkedin
-{
-    float : right;
-    margin-right: 5%;
-    margin-top: 2%;
-    background-color: white;
     border-style: groove;
 }
 

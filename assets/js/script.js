@@ -1,18 +1,20 @@
 $(document).ready(() => {
 
-    hideContainer("#contact-me");
-    hideContainer("#portfolio");
-    $("#navLinks").on("click", (event) => {
-        switch ($(event.target).attr("href")) {
+    /**
+     * display panelToShow pane and hide other panes also
+     * saves last visisted pane in local storage.
+     * @param {current panel where user is} panelToShow 
+     */
+    const displayPanel = panelToShow => {
+        localStorage.setItem("currentPanel",panelToShow);
+        switch (panelToShow) {
             case "#portfolio":
                 showContainer("#portfolio");
                 hideContainer("#about-me");
                 hideContainer("#contact-me");
-                hideContainer("#linkedin");
                 break;
             case "#about-me":
                 showContainer("#about-me");
-                showContainer("#linkedin");
                 hideContainer("#portfolio");
                 hideContainer("#contact-me");
                 break;
@@ -20,10 +22,16 @@ $(document).ready(() => {
                 showContainer("#contact-me");
                 hideContainer("#portfolio");
                 hideContainer("#about-me");
-                hideContainer("#linkedin");
                 break;
         }
-    });
+
+    }
+    var panelToShow = localStorage.getItem("currentPanel");
+    panelToShow = panelToShow ? panelToShow : "#about-me";
+    displayPanel(panelToShow);
+    $("#navLinks").on("click", (event) => {
+        displayPanel($(event.target).attr("href"));        
+    });    
 
     /**
      * hides input div by adding hide class 
@@ -40,5 +48,4 @@ $(document).ready(() => {
         $(container).removeClass("hide");
     }
 
-}
-)
+});
