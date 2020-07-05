@@ -25,7 +25,7 @@ $(document).ready(() => {
                 break;
         }
 
-    }
+    };
     var panelToShow = localStorage.getItem("currentPanel");
     panelToShow = panelToShow ? panelToShow : "#about-me";
     displayPanel(panelToShow);
