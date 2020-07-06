@@ -31,7 +31,23 @@ $(document).ready(() => {
     displayPanel(panelToShow);
     $("#navLinks").on("click", (event) => {
         displayPanel($(event.target).attr("href"));        
-    });    
+    });
+    // making whole header clickable to open deployed application
+    $(".card-header").on("click",event => {
+        const linkEl = $(event.target).children(".card-link");
+        if(linkEl && linkEl.length)
+        {
+            linkEl[0].click();
+        }
+    });
+    // making whole footer clickable to open github repo
+    $(".card-footer").on("click",event => {
+        const linkEl = $(event.target).children(".card-link");
+        if(linkEl && linkEl.length)
+        {
+            linkEl[0].click();
+        }
+    }); 
 
     /**
      * hides input div by adding hide class 
